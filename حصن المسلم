@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذكار الصباح والمساء</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>أذكار الصباح والمساء</h1>
+    <div id="azkar-container">
+        <div class="dhikr" data-count="0" data-total="1">
+            <p>آية الكرسي: اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ...</p>
+            <button onclick="incrementCounter(this)">ذَكرْ</button>
+            <div class="counter">0/1</div>
+        </div>
+        <div class="dhikr" data-count="0" data-total="1">
+            <p>اللَّهُمَّ أنتَ ربِّي لا إلَهَ إلَّا أنتَ...</p>
+            <button onclick="incrementCounter(this)">ذَكرْ</button>
+            <div class="counter">0/1</div>
+        </div>
+        <!-- أضف المزيد من الأذكار هنا -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
